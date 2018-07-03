@@ -1,6 +1,6 @@
 {
-  "name": "express-lowercase-paths",
-  "version": "1.0.0",
+  "name": "express-lowercase-paths-with-status-code",
+  "version": "1.1.0",
   "description": "An Express middleware module that will redirect user HTTP requests that contain uppercase letters, to the same URL converted to lowercase, without modifying query parameters.",
   "main": "express-lowercase-paths.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/iZettle/express-lowercase-paths.git"
+    "url": "https://github.com/bkrem/express-lowercase-paths.git"
   },
   "keywords": [
     "express",
