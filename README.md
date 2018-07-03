@@ -5,17 +5,17 @@ Very similar to the unmaintained project [express-uncapitalize](https://github.c
 
 # Installation
 
-    npm install express-lowercase-paths
+    npm install express-lowercase-paths-with-status-code
 
 # Usage
 
-    var lowercasePaths = require("express-lowercase-paths")
+    var lowercasePaths = require("express-lowercase-paths-with-status-code")
     app.use(lowercasePaths())
 
 # Options
 ## Redirecting with specific status code
 To redirect with a specific status code, pass the `redirectStatusCode` option to the middleware:
 ```js
-var lowercasePaths = require("express-lowercase-paths")
+var lowercasePaths = require("express-lowercase-paths-with-status-code")
 app.use(lowercasePaths({redirectStatusCode: 301}))
 ```
